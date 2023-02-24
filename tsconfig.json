@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "module": "ESNext",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "moduleResolution": "node",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "types": ["node", "jest", "vite/client", "@testing-library/jest-dom"]
+    }
+}
